@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;   
+    height: 100vh;
+    overflow: hidden;
+   
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    
+}
+
+.center h2, h4{
+    text-align: center;
+    font-weight: lighter ;
+}
+
+form{
+    background: white;
+    width: 28rem;
+    height: 30rem;    
+    display: block;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(226, 226, 226);
+}
+
+.center form{
+    padding: 0 40px;  
+    box-sizing: border-box;
+    
+  
+  }
+
+.info{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+p{
+    font-size: 13px;
+    
+}
+ a{
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: bold;
+    
+
+ }
+
+ .foot a{
+    color:  rgb(87, 86, 86) ;
+    font-size: 12px;
+    padding: 10px;
+        
+ }
+
+ .button {
+    color: white;
+    background-color: #1a73e8;
+    border-style: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 75px;
+    float: right;
+    font-weight: bold;
+ }
+
+ .button :hover{
+    background-color: rgb(19, 106, 247);
+ }
+
+ /* Google Logo And Coloring */
+ .google-letters {
+    font-size: 25px;
+    font-family: sans-serif;
+    word-spacing: -20px;
+       
+  }
+  
+  .google-letters span:nth-child(10n + 1) {
+    color: rgb(66, 133, 244);
+  }
+  
+  .google-letters span:nth-child(10n + 2) {
+    color: rgb(219, 68, 55);
+  }
+  
+  .google-letters span:nth-child(10n + 3){
+    color: rgb(244, 160, 0);
+  }
+  
+  .google-letters span:nth-child(10n + 5){
+    color: rgb(15, 157, 88);
+  }
+  
+  .google-letters span:nth-child(10n + 4) {
+    color: rgb(66, 133, 244);
+  }
+  
+  .google-letters span:nth-child(10n + 6){
+    color: rgb(219, 68, 55);
+  }
+
+  .textbox{
+    
+    width: 23rem;
+    height: 3.2rem;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(226, 226, 226);
+    border-width: 1px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-indent: 12px;
+    font-weight: 500;
+  }
+  
+  
